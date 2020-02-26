@@ -41,7 +41,7 @@ public class HelloWorldController {
         //convert the data to all caps
         theName = theName.toUpperCase();
         //create the msg
-        String result = "Yo! "+theName;
+        String result = "Hey Freund! "+theName;
         //add msg to the model
         model.addAttribute("message",result);
 
