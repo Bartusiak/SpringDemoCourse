@@ -6,7 +6,7 @@
 
     <display-name>spring-mvc-demo</display-name>
 
-    <absolute-ordering />
+    <absolute-ordering/>
 
     <!-- Spring MVC Configs -->
 
@@ -26,4 +26,12 @@
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.timeZone</param-name>
+        <param-value>US/Central</param-value>
+    </context-param>
+
+    
+
 </web-app>
