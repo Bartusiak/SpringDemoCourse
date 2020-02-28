@@ -1,5 +1,7 @@
 package com.luv2code.springdemo.mvc;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.LinkedHashMap;
 
 public class Student {
