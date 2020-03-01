@@ -18,5 +18,9 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <!-- Load custom message resources -->
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="resources/messages_pl_PL.properties"/>
+    </bean>
 
 </beans>
